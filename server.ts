@@ -20,6 +20,7 @@ try {
     ai = new GoogleGenAI({
       apiKey,
       httpOptions: {
+        timeout: 120000, // 2 minutes timeout to prevent HeadersTimeoutError
         headers: {
           'User-Agent': 'aistudio-build',
         }
@@ -203,9 +204,10 @@ async function setupServer() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
+  const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`Express custom server running on http://0.0.0.0:${PORT}`);
   });
+  server.timeout = 120000; // 2 minutes server request timeout
 }
 
 setupServer().catch((err) => {
