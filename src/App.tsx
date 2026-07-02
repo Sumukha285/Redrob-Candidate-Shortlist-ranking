@@ -34,7 +34,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Candidate, FilterState, CustomWeights, EvaluationReport } from "./types";
-import { calculateMatchScore, validateCSVContent } from "./utils";
+import { calculateMatchScore, validateCSVContent, auditCandidateProfile } from "./utils";
 
 export default function App() {
   // State
@@ -81,6 +81,8 @@ export default function App() {
     willingToRelocate: false,
     openToWorkOnly: false,
     githubRequired: false,
+    excludeSuspicious: false,
+    hallucinationShield: true,
   });
 
   // Load candidate list from backend on mount
@@ -344,6 +346,14 @@ export default function App() {
       // 10. Github connected flag
       if (filters.githubRequired && c.redrob_signals.github_activity_score === -1) {
         return false;
+      }
+
+      // 11. Exclude Suspicious/Low-Quality Profiles Filter
+      if (filters.excludeSuspicious) {
+        const audit = auditCandidateProfile(c);
+        if (audit.isSuspicious) {
+          return false;
+        }
       }
 
       return true;
@@ -856,6 +866,36 @@ export default function App() {
                     />
                     <span className="text-slate-600">GitHub Profile Connected</span>
                   </label>
+
+                  <div className="border-t border-slate-200 pt-3 mt-3">
+                    <div className="flex items-center gap-1.5 mb-2">
+                      <ShieldCheck className="h-4 w-4 text-emerald-600" />
+                      <span className="text-xxs font-semibold text-slate-700 uppercase tracking-wider">Integrity Guardrails</span>
+                    </div>
+                    
+                    <label className="flex items-center gap-2 cursor-pointer py-1" title="Subtracts points from match score for unverified contacts or timeline anomalies">
+                      <input
+                        type="checkbox"
+                        checked={filters.hallucinationShield}
+                        onChange={(e) => setFilters({ ...filters, hallucinationShield: e.target.checked })}
+                        className="rounded-sm border-slate-300 text-emerald-600 focus:ring-emerald-500 h-4 w-4"
+                      />
+                      <span className="text-slate-700 font-semibold text-xs flex items-center gap-1">
+                        Hallucination Shield
+                        <span className="rounded bg-emerald-100 px-1 py-0.2 text-[9px] font-bold text-emerald-800">ACTIVE</span>
+                      </span>
+                    </label>
+
+                    <label className="flex items-center gap-2 cursor-pointer py-1" title="Filters out profiles with critical validation warnings/failures">
+                      <input
+                        type="checkbox"
+                        checked={filters.excludeSuspicious}
+                        onChange={(e) => setFilters({ ...filters, excludeSuspicious: e.target.checked })}
+                        className="rounded-sm border-slate-300 text-rose-600 focus:ring-rose-500 h-4 w-4"
+                      />
+                      <span className="text-slate-600 text-xs">Filter Suspicious Profiles</span>
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -960,6 +1000,31 @@ export default function App() {
                                     Open to Work
                                   </span>
                                 )}
+                                {(() => {
+                                  const audit = auditCandidateProfile(candidate);
+                                  if (audit.isSuspicious) {
+                                    return (
+                                      <span className="flex items-center gap-0.5 rounded-full bg-rose-50 border border-rose-100 px-1.5 py-0.2 font-sans text-[9px] font-semibold text-rose-700" title={audit.reasons.join(". ")}>
+                                        <AlertTriangle className="h-2 w-2 text-rose-500" />
+                                        High Risk
+                                      </span>
+                                    );
+                                  } else if (audit.scorePenalty > 0) {
+                                    return (
+                                      <span className="flex items-center gap-0.5 rounded-full bg-amber-50 border border-amber-100 px-1.5 py-0.2 font-sans text-[9px] font-semibold text-amber-700" title="Minor inconsistencies detected in timeline, verification, or connections">
+                                        <AlertTriangle className="h-2 w-2 text-amber-500" />
+                                        Inconsistent
+                                      </span>
+                                    );
+                                  } else {
+                                    return (
+                                      <span className="flex items-center gap-0.5 rounded-full bg-teal-50 border border-teal-100 px-1.5 py-0.2 font-sans text-[9px] font-semibold text-teal-700" title="All integrity, timeline, and connection checks passed">
+                                        <ShieldCheck className="h-2 w-2 text-teal-500" />
+                                        Verified
+                                      </span>
+                                    );
+                                  }
+                                })()}
                               </div>
                               <p className="text-xxs text-slate-500 font-medium">
                                 {candidate.profile.current_title} • {candidate.profile.current_company}
@@ -1091,6 +1156,68 @@ export default function App() {
                       </span>
                     </div>
                   </div>
+
+                  {/* Real-time Profile Compliance & Verification Audit */}
+                  {(() => {
+                    const audit = auditCandidateProfile(activeCandidate);
+                    return (
+                      <div className="border border-slate-200 rounded-xl bg-slate-50/50 p-3 mb-4 space-y-2">
+                        <div className="flex items-center justify-between border-b border-slate-200/60 pb-2">
+                          <div className="flex items-center gap-1.5">
+                            <ShieldCheck className={`h-4 w-4 ${audit.isSuspicious ? "text-rose-600" : audit.scorePenalty > 0 ? "text-amber-500" : "text-teal-600"}`} />
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700">Integrity & Verification Audit</span>
+                          </div>
+                          <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+                            audit.isSuspicious 
+                              ? "bg-rose-100 text-rose-800" 
+                              : audit.scorePenalty > 0 
+                              ? "bg-amber-100 text-amber-800" 
+                              : "bg-teal-100 text-teal-800"
+                          }`}>
+                            {audit.isSuspicious ? "High Risk Profile" : audit.scorePenalty > 0 ? "Inconsistent" : "Verified Safe"}
+                          </span>
+                        </div>
+
+                        {/* Summary status text */}
+                        <p className="text-[10px] text-slate-500 leading-relaxed">
+                          {audit.isSuspicious 
+                            ? "Failed structural consistency tests. Timeline gaps or unverified channels suggest resume inflation or bot risk." 
+                            : audit.scorePenalty > 0 
+                            ? "Passed overall verification, but has minor contact, network, or assessment gaps." 
+                            : "Profile timeline, professional social networks, and verification credentials are fully aligned."
+                          }
+                        </p>
+
+                        {/* List of sub-checks with green checks and red triangles */}
+                        <div className="grid grid-cols-1 gap-1.5 pt-1.5">
+                          {audit.checks.map((check, idx) => (
+                            <div key={idx} className="flex items-start gap-1.5 text-xxs leading-snug">
+                              <span className="mt-0.5 shrink-0">
+                                {check.status === "pass" ? (
+                                  <span className="text-teal-500 font-bold font-mono">✓</span>
+                                ) : check.status === "warning" ? (
+                                  <span className="text-amber-500 font-bold font-mono">!</span>
+                                ) : (
+                                  <span className="text-rose-500 font-bold font-mono">✗</span>
+                                )}
+                              </span>
+                              <div>
+                                <span className="font-semibold text-slate-800 block leading-tight">{check.name}</span>
+                                <span className="text-[10px] text-slate-500 block leading-tight mt-0.5">{check.message}</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+
+                        {audit.scorePenalty > 0 && filters.hallucinationShield && (
+                          <div className="rounded-lg bg-rose-50 border border-rose-100 p-2 text-xxs text-rose-700 flex items-center justify-between font-medium">
+                            <span>Score Compliance Adjusted:</span>
+                            <span className="font-mono font-bold">-{audit.scorePenalty} pts</span>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()}
 
                   {/* Navigation Tab selection for details */}
                   <div className="space-y-4 max-h-[45vh] overflow-y-auto pr-1">

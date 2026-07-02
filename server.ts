@@ -4,6 +4,7 @@ import fs from "fs";
 import dotenv from "dotenv";
 import { GoogleGenAI, Type } from "@google/genai";
 import { createServer as createViteServer } from "vite";
+import { auditCandidateProfile } from "./src/utils";
 
 dotenv.config();
 
@@ -94,6 +95,22 @@ app.post("/api/evaluate", async (req, res) => {
       return res.status(404).json({ success: false, error: "No matching candidates found for the provided IDs." });
     }
 
+    // Enrich candidates with a dynamic Integrity and Compliance Audit
+    const targetsWithAudit = targets.map(c => {
+      const audit = auditCandidateProfile(c);
+      return {
+        ...c,
+        integrity_audit: {
+          is_suspicious: audit.isSuspicious,
+          score_penalty: audit.scorePenalty,
+          failed_checks: audit.checks.filter(ch => ch.status === "fail").map(ch => ch.message),
+          warning_checks: audit.checks.filter(ch => ch.status === "warning").map(ch => ch.message),
+          passed_checks_count: audit.passedChecksCount,
+          total_checks_count: audit.totalChecksCount,
+        }
+      };
+    });
+
     // Since we want high-precision evaluations, we can call Gemini.
     // To stay safe and precise, we ask Gemini to evaluate the targets against the query and weights.
     const prompt = `You are an elite, highly precise technical recruiter and AI talent screener.
@@ -110,16 +127,23 @@ Evaluate the following candidates against the recruiter's search criteria and re
 - University Tier & Academic background: ${customWeights?.universityTierWeight ?? 5}/10
 - GitHub Activity & Open Source engagement: ${customWeights?.githubActivityWeight ?? 5}/10
 
---- CANDIDATES DATA ---
-${JSON.stringify(targets, null, 2)}
+--- CANDIDATES DATA (WITH STRUCTURAL INTEGRITY AUDITS) ---
+${JSON.stringify(targetsWithAudit, null, 2)}
+
+--- ANTI-HALLUCINATION & COMPLIANCE GUARDRAILS ---
+- STICK STRICTLY TO THE VERIFIED FACTS. DO NOT assume or hallucinate accomplishments, certifications, or details not explicit in the candidate's JSON profile.
+- Pay critical attention to the 'integrity_audit' section attached to each candidate profile.
+- If 'is_suspicious' is true or if there are 'failed_checks' / 'warning_checks' (e.g. unverified contact channels, experience timeline discrepancies, multiple active concurrent jobs), you MUST penalize their 'suitability_score' heavily.
+- For high-risk or suspicious candidates, explicitly call out these verification gaps as red flags under the 'cons' array.
+- Tailor rigorous verification and situational questions under the 'interview_questions' array to directly test and confirm any conflicting timeline claims or unverified credentials.
 
 --- EVALUATION INSTRUCTIONS ---
 For each candidate:
-1. Compute a high-precision 'suitability_score' from 0 to 100 based strictly on how their skills, years of experience, current industry/history, education tier, and redrob_signals (like notice period, expected salary, github activity) align with the recruiter's search criteria and custom weights.
+1. Compute a high-precision 'suitability_score' from 0 to 100 based strictly on how their skills, years of experience, current industry/history, education tier, and redrob_signals (like notice period, expected salary, github activity) align with the recruiter's search criteria and custom weights, modified by the compliance/integrity penalty.
 2. Provide a clear, objective 2-3 sentence 'analysis_summary' detailing exactly why they are or aren't a great fit.
 3. Call out concrete 'pros' (e.g. key relevant skills, strong company pedigree, low notice period, high offer acceptance/interview completion rate).
-4. Call out concrete 'cons' or 'concerns' (e.g. notice period too long, salary expected is high or missing, lack of key framework, potential job-hopping, low search appearance).
-5. Suggest 2-3 highly specific technical/behavioral 'interview_questions' tailored to their exact background and the role.
+4. Call out concrete 'cons' or 'concerns' (e.g. notice period too long, salary expected is high or missing, lack of key framework, potential job-hopping, low search appearance, or verification failures).
+5. Suggest 2-3 highly specific technical/behavioral 'interview_questions' tailored to their exact background, timeline checks, and the role.
 6. Provide an honest 'verdict' from: "Highly Recommended", "Strong Match", "Potential Fit", "Not Aligned".
 
 Evaluate all of them and return the results as a JSON array matching the specified response schema.`;

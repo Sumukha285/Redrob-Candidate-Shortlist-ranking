@@ -124,4 +124,23 @@ export interface FilterState {
   willingToRelocate: boolean;
   openToWorkOnly: boolean;
   githubRequired: boolean;
+  excludeSuspicious: boolean;
+  hallucinationShield: boolean;
 }
+
+export interface IntegrityCheckDetail {
+  name: string;
+  status: "pass" | "fail" | "warning";
+  message: string;
+}
+
+export interface IntegrityAudit {
+  candidate_id: string;
+  isSuspicious: boolean;
+  scorePenalty: number;
+  reasons: string[];
+  passedChecksCount: number;
+  totalChecksCount: number;
+  checks: IntegrityCheckDetail[];
+}
+

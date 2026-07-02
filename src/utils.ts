@@ -1,4 +1,4 @@
-import { Candidate, FilterState, CustomWeights } from "./types";
+import { Candidate, FilterState, CustomWeights, IntegrityAudit } from "./types";
 
 /**
  * Calculates a highly deterministic structural match score from 0 to 100
@@ -133,9 +133,214 @@ export function calculateMatchScore(
     breakdown.education * weights.universityTierWeight +
     breakdown.github * weights.githubActivityWeight;
 
-  const score = Math.round(weightedSum / totalWeight);
+  let score = Math.round(weightedSum / totalWeight);
+
+  if (filters.hallucinationShield) {
+    const audit = auditCandidateProfile(candidate);
+    score = Math.max(0, score - audit.scorePenalty);
+  }
 
   return { score, breakdown };
+}
+
+/**
+ * Runs structural consistency and integrity audits on a candidate profile
+ * to automatically detect resume inflation, suspicious activity, or potential bots.
+ */
+export function auditCandidateProfile(candidate: Candidate): IntegrityAudit {
+  const checks: { name: string; status: "pass" | "fail" | "warning"; message: string }[] = [];
+  const reasons: string[] = [];
+  let scorePenalty = 0;
+
+  // 1. Contact Verification Check
+  const hasVerifiedEmail = candidate.redrob_signals?.verified_email ?? false;
+  const hasVerifiedPhone = candidate.redrob_signals?.verified_phone ?? false;
+  if (hasVerifiedEmail && hasVerifiedPhone) {
+    checks.push({
+      name: "Contact Information Verification",
+      status: "pass",
+      message: "Both email and phone contact channels are fully verified.",
+    });
+  } else if (hasVerifiedEmail || hasVerifiedPhone) {
+    checks.push({
+      name: "Contact Information Verification",
+      status: "warning",
+      message: "Partial contact verification (either email or phone is unverified).",
+    });
+    scorePenalty += 5;
+  } else {
+    checks.push({
+      name: "Contact Information Verification",
+      status: "fail",
+      message: "Unverified profile: Both email and phone numbers are completely unverified.",
+    });
+    reasons.push("Unverified email and phone contact channels (Spam/Bot Risk).");
+    scorePenalty += 15;
+  }
+
+  // 2. Identity Connection Presence
+  const isLinkedinConnected = candidate.redrob_signals?.linkedin_connected ?? false;
+  const connections = candidate.redrob_signals?.connection_count ?? 0;
+  if (isLinkedinConnected) {
+    checks.push({
+      name: "Social/Professional Identity Linkage",
+      status: "pass",
+      message: `LinkedIn account is securely connected (${connections} connections).`,
+    });
+  } else if (connections >= 100) {
+    checks.push({
+      name: "Social/Professional Identity Linkage",
+      status: "warning",
+      message: `LinkedIn disconnected, but profile exhibits a healthy network of ${connections} connections.`,
+    });
+    scorePenalty += 3;
+  } else {
+    checks.push({
+      name: "Social/Professional Identity Linkage",
+      status: "fail",
+      message: "No connected professional LinkedIn account and low network presence (<100 connections).",
+    });
+    reasons.push("Missing professional LinkedIn connection combined with a sparse network profile.");
+    scorePenalty += 10;
+  }
+
+  // 3. Profile Completeness
+  const completeness = candidate.redrob_signals?.profile_completeness_score ?? 0;
+  if (completeness >= 70) {
+    checks.push({
+      name: "Profile Completeness Audit",
+      status: "pass",
+      message: `Profile has high content density and completeness score of ${completeness}%.`,
+    });
+  } else if (completeness >= 45) {
+    checks.push({
+      name: "Profile Completeness Audit",
+      status: "warning",
+      message: `Moderately complete profile (${completeness}%). Some resume sections are sparse.`,
+    });
+    scorePenalty += 5;
+  } else {
+    checks.push({
+      name: "Profile Completeness Audit",
+      status: "fail",
+      message: `Extremely skeletal profile content with a completeness rating of only ${completeness}%.`,
+    });
+    reasons.push("Extremely low profile completeness score (< 45%), indicating low-quality resume data.");
+    scorePenalty += 15;
+  }
+
+  // 4. Experience Timeline Consistency & Resume Inflation Verification
+  const claimedYears = candidate.profile?.years_of_experience ?? 0;
+  const historyMonths = (candidate.career_history || []).reduce(
+    (sum, job) => sum + (job.duration_months || 0),
+    0
+  );
+  const historyYears = historyMonths / 12;
+
+  if (claimedYears > 1.0) {
+    const ratio = historyYears / claimedYears;
+    if (ratio >= 0.8) {
+      checks.push({
+        name: "Experience Timeline Consistency Check",
+        status: "pass",
+        message: `Claimed experience (${claimedYears} yrs) is fully supported by listed employment history (${historyYears.toFixed(1)} yrs).`,
+      });
+    } else if (ratio >= 0.5) {
+      checks.push({
+        name: "Experience Timeline Consistency Check",
+        status: "warning",
+        message: `Minor timeline gap: candidate claims ${claimedYears} yrs but employment items account for only ${historyYears.toFixed(1)} yrs.`,
+      });
+      scorePenalty += 8;
+    } else {
+      checks.push({
+        name: "Experience Timeline Consistency Check",
+        status: "fail",
+        message: `Severe timeline discrepancy: candidate claims ${claimedYears} years of experience, but listed employment history accounts for only ${historyYears.toFixed(1)} years (a gap of ${(claimedYears - historyYears).toFixed(1)} years). Significant resume inflation risk.`,
+      });
+      reasons.push(`Extreme experience timeline gap (claimed ${claimedYears} yrs but employment list only covers ${historyYears.toFixed(1)} yrs).`);
+      scorePenalty += 25;
+    }
+  } else {
+    checks.push({
+      name: "Experience Timeline Consistency Check",
+      status: "pass",
+      message: "Early career candidate profile timeline checks passed.",
+    });
+  }
+
+  // 5. Overemployment & Concurrency Audit
+  const currentJobs = (candidate.career_history || []).filter(job => job.is_current === true).length;
+  if (currentJobs <= 1) {
+    checks.push({
+      name: "Concurrent Employment Concurrency Audit",
+      status: "pass",
+      message: "Employment concurrency is standard (no conflicting concurrent full-time current positions).",
+    });
+  } else {
+    checks.push({
+      name: "Concurrent Employment Concurrency Audit",
+      status: "fail",
+      message: `Detected multiple (${currentJobs}) concurrent 'current' full-time job roles. Potential double-dipping or failure to update status.`,
+    });
+    reasons.push(`Detected multiple active current jobs (${currentJobs}), signifying concurrency conflicts.`);
+    scorePenalty += 10;
+  }
+
+  // 6. Skill Assessment Integrity Check
+  const hasSkills = candidate.skills && candidate.skills.length > 0;
+  const skillAssessments = candidate.redrob_signals?.skill_assessment_scores || {};
+  const assessmentKeys = Object.keys(skillAssessments);
+  
+  if (!hasSkills) {
+    checks.push({
+      name: "Skill Assessment Integrity",
+      status: "fail",
+      message: "No technical or soft skills are catalogued on this profile.",
+    });
+    reasons.push("Zero technical or professional skills declared.");
+    scorePenalty += 15;
+  } else if (assessmentKeys.length > 0) {
+    const scores = Object.values(skillAssessments);
+    const avgScore = scores.reduce((sum, s) => sum + s, 0) / scores.length;
+    
+    if (avgScore >= 40) {
+      checks.push({
+        name: "Skill Assessment Integrity",
+        status: "pass",
+        message: `Validated skill assessments average ${avgScore.toFixed(1)}%, supporting claimed proficiency levels.`,
+      });
+    } else {
+      checks.push({
+        name: "Skill Assessment Integrity",
+        status: "warning",
+        message: `Low verified skill assessment scores (average: ${avgScore.toFixed(1)}%), representing potential skill inflation.`,
+      });
+      scorePenalty += 8;
+    }
+  } else {
+    checks.push({
+      name: "Skill Assessment Integrity",
+      status: "warning",
+      message: "Technical skills declared but no independent skill assessments have been taken/passed.",
+    });
+    scorePenalty += 4;
+  }
+
+  // Calculate final numbers
+  const passedChecksCount = checks.filter(c => c.status === "pass").length;
+  const totalChecksCount = checks.length;
+  const isSuspicious = checks.some(c => c.status === "fail") || scorePenalty >= 20;
+
+  return {
+    candidate_id: candidate.candidate_id,
+    isSuspicious,
+    scorePenalty,
+    reasons,
+    passedChecksCount,
+    totalChecksCount,
+    checks,
+  };
 }
 
 export interface ValidationResult {
