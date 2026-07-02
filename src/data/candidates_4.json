@@ -1,0 +1,758 @@
+[
+  {
+    "candidate_id": "CAND_0000031",
+    "profile": {
+      "anonymized_name": "Ela Singh",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.0 years of experience building ML-powered features. Strong background in NLP, recommendation systems, and applied AI. Evolved e-commerce search to learning-to-rank.",
+      "location": "Hyderabad, Telangana",
+      "country": "India",
+      "years_of_experience": 6.0,
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Swiggy",
+      "current_company_size": "5001-10000",
+      "current_industry": "Food Delivery"
+    },
+    "career_history": [
+      {
+        "company": "Swiggy",
+        "title": "Recommendation Systems Engineer",
+        "start_date": "2025-04-02",
+        "end_date": null,
+        "duration_months": 14,
+        "is_current": true,
+        "industry": "Food Delivery",
+        "company_size": "5001-10000",
+        "description": "Trained and shipped ranking models using XGBoost and LightGBM."
+      }
+    ],
+    "education": [
+      {
+        "institution": "SRM University",
+        "degree": "M.Tech",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2008,
+        "end_year": 2012,
+        "grade": "9.16 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {"name": "MLflow", "proficiency": "advanced", "endorsements": 59, "duration_months": 21},
+      {"name": "Pinecone", "proficiency": "expert", "endorsements": 34, "duration_months": 88},
+      {"name": "Machine Learning", "proficiency": "advanced", "endorsements": 43, "duration_months": 23},
+      {"name": "Embeddings", "proficiency": "expert", "endorsements": 48, "duration_months": 60},
+      {"name": "Information Retrieval", "proficiency": "expert", "endorsements": 2, "duration_months": 84},
+      {"name": "Hugging Face Transformers", "proficiency": "expert", "endorsements": 18, "duration_months": 36},
+      {"name": "Sentence Transformers", "proficiency": "expert", "endorsements": 16, "duration_months": 69},
+      {"name": "scikit-learn", "proficiency": "advanced", "endorsements": 41, "duration_months": 60}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 83.4,
+      "signup_date": "2026-01-28",
+      "last_active_date": "2026-05-24",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 194,
+      "applications_submitted_30d": 2,
+      "recruiter_response_rate": 0.91,
+      "avg_response_time_hours": 76.1,
+      "skill_assessment_scores": {
+        "MLflow": 75.1,
+        "FAISS": 68.4,
+        "Pinecone": 53.6,
+        "Image Classification": 57.1
+      },
+      "connection_count": 832,
+      "endorsements_received": 177,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 27.3, "max": 60.2},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": true,
+      "github_activity_score": 32.6,
+      "search_appearance_30d": 778,
+      "saved_by_recruiters_30d": 13,
+      "interview_completion_rate": 0.6,
+      "offer_acceptance_rate": 0.38,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000032",
+    "profile": {
+      "anonymized_name": "Pranav Agarwal",
+      "headline": ".NET Developer | Full-stack development",
+      "summary": "Software engineer with 8.1 years of experience. Most of my work is conventional backend engineering — APIs, databases, queues.",
+      "location": "Gurgaon, Haryana",
+      "country": "India",
+      "years_of_experience": 8.1,
+      "current_title": ".NET Developer",
+      "current_company": "Cognizant",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Cognizant",
+        "title": ".NET Developer",
+        "start_date": "2024-02-07",
+        "end_date": null,
+        "duration_months": 28,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Java backend development at a large enterprise."
+      }
+    ],
+    "education": [
+      {
+        "institution": "VIT Chennai",
+        "degree": "M.Sc",
+        "field_of_study": "Machine Learning",
+        "start_year": 2017,
+        "end_year": 2020,
+        "grade": "8.37 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Speech Recognition", "proficiency": "advanced", "endorsements": 36, "duration_months": 19},
+      {"name": "Embeddings", "proficiency": "advanced", "endorsements": 30, "duration_months": 30},
+      {"name": "OpenCV", "proficiency": "advanced", "endorsements": 45, "duration_months": 54}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 35.4,
+      "signup_date": "2023-12-20",
+      "last_active_date": "2025-12-29",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 80,
+      "applications_submitted_30d": 3,
+      "recruiter_response_rate": 0.69,
+      "avg_response_time_hours": 58.6,
+      "skill_assessment_scores": {},
+      "connection_count": 404,
+      "endorsements_received": 22,
+      "notice_period_days": 150,
+      "expected_salary_range_inr_lpa": {"min": 18.3, "max": 15.7},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": true,
+      "github_activity_score": -1,
+      "search_appearance_30d": 56,
+      "saved_by_recruiters_30d": 4,
+      "interview_completion_rate": 0.78,
+      "offer_acceptance_rate": 0.25,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000033",
+    "profile": {
+      "anonymized_name": "Shreya Nair",
+      "headline": "Graphic Designer | Helping teams scale",
+      "summary": "Professional with 8.6+ years of experience. Substantial experience in stakeholder management and graphic layouts.",
+      "location": "Pune, Maharashtra",
+      "country": "India",
+      "years_of_experience": 8.6,
+      "current_title": "Graphic Designer",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Graphic Designer",
+        "start_date": "2023-11-09",
+        "end_date": null,
+        "duration_months": 31,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Graphic layouts, asset designs and vector illustrations."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tier-3 Engineering College",
+        "degree": "M.S.",
+        "field_of_study": "Computer Science",
+        "start_year": 2014,
+        "end_year": 2017,
+        "grade": "9.32 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "Snowflake", "proficiency": "intermediate", "endorsements": 11, "duration_months": 12},
+      {"name": "Airflow", "proficiency": "intermediate", "endorsements": 11, "duration_months": 16},
+      {"name": "TypeScript", "proficiency": "intermediate", "endorsements": 13, "duration_months": 15}
+    ],
+    "certifications": [
+      {"name": "Six Sigma Green Belt", "issuer": "ASQ", "year": 2019}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 74.0,
+      "signup_date": "2026-03-13",
+      "last_active_date": "2026-03-27",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 42,
+      "applications_submitted_30d": 9,
+      "recruiter_response_rate": 0.08,
+      "avg_response_time_hours": 210.9,
+      "skill_assessment_scores": {},
+      "connection_count": 410,
+      "endorsements_received": 29,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 8.3, "max": 13.0},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": 38.3,
+      "search_appearance_30d": 98,
+      "saved_by_recruiters_30d": 2,
+      "interview_completion_rate": 0.37,
+      "offer_acceptance_rate": -1,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000034",
+    "profile": {
+      "anonymized_name": "Yash Chatterjee",
+      "headline": "Business Analyst | Driving business outcomes",
+      "summary": "Professional with 14.5+ years of experience. Marketing manager with substantial experience in cross-functional execution.",
+      "location": "Ahmedabad, Gujarat",
+      "country": "India",
+      "years_of_experience": 14.5,
+      "current_title": "Business Analyst",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Business Analyst",
+        "start_date": "2025-04-02",
+        "end_date": null,
+        "duration_months": 14,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Content writing and SEO strategy for tech-focused publication."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tier-3 Engineering College",
+        "degree": "B.E.",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2005,
+        "end_year": 2010,
+        "grade": "8.97 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "Excel", "proficiency": "intermediate", "endorsements": 15, "duration_months": 19},
+      {"name": "Terraform", "proficiency": "intermediate", "endorsements": 6, "duration_months": 13},
+      {"name": "Next.js", "proficiency": "intermediate", "endorsements": 7, "duration_months": 21}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 41.2,
+      "signup_date": "2024-01-15",
+      "last_active_date": "2026-01-03",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 25,
+      "applications_submitted_30d": 7,
+      "recruiter_response_rate": 0.15,
+      "avg_response_time_hours": 253.5,
+      "skill_assessment_scores": {},
+      "connection_count": 226,
+      "endorsements_received": 27,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 14.4, "max": 28.0},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 143,
+      "saved_by_recruiters_30d": 2,
+      "interview_completion_rate": 0.41,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000035",
+    "profile": {
+      "anonymized_name": "Vikram Verma",
+      "headline": "Full Stack Developer | Backend systems & APIs",
+      "summary": "Software engineer with 4.3 years of experience. Comfort zone is the backend and the database.",
+      "location": "Hyderabad, Telangana",
+      "country": "India",
+      "years_of_experience": 4.3,
+      "current_title": "Full Stack Developer",
+      "current_company": "Globex Inc",
+      "current_company_size": "501-1000",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Globex Inc",
+        "title": "Full Stack Developer",
+        "start_date": "2023-09-10",
+        "end_date": null,
+        "duration_months": 33,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "501-1000",
+        "description": "Full-stack web application development on React/Node."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Bharati Vidyapeeth",
+        "degree": "M.S.",
+        "field_of_study": "Data Science",
+        "start_year": 2010,
+        "end_year": 2015,
+        "grade": "7.08 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Snowflake", "proficiency": "intermediate", "endorsements": 11, "duration_months": 27},
+      {"name": "MongoDB", "proficiency": "intermediate", "endorsements": 11, "duration_months": 16},
+      {"name": "PostgreSQL", "proficiency": "intermediate", "endorsements": 14, "duration_months": 13},
+      {"name": "BentoML", "proficiency": "advanced", "endorsements": 40, "duration_months": 59}
+    ],
+    "certifications": [
+      {"name": "AWS Certified Cloud Practitioner", "issuer": "AWS", "year": 2022}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 56.2,
+      "signup_date": "2024-08-13",
+      "last_active_date": "2026-02-06",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 7,
+      "applications_submitted_30d": 4,
+      "recruiter_response_rate": 0.34,
+      "avg_response_time_hours": 178.0,
+      "skill_assessment_scores": {},
+      "connection_count": 398,
+      "endorsements_received": 45,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 11.2, "max": 22.8},
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 173,
+      "saved_by_recruiters_30d": 1,
+      "interview_completion_rate": 0.5,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000036",
+    "profile": {
+      "anonymized_name": "Ananya Bose",
+      "headline": "Project Manager | 11.3+ yrs experience",
+      "summary": "Professional with 11.3+ years of experience. Substantial experience in cross-functional collaboration and brand campaigns.",
+      "location": "Trivandrum, Kerala",
+      "country": "India",
+      "years_of_experience": 11.3,
+      "current_title": "Project Manager",
+      "current_company": "Initech",
+      "current_company_size": "51-200",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Initech",
+        "title": "Project Manager",
+        "start_date": "2025-02-01",
+        "end_date": null,
+        "duration_months": 16,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "51-200",
+        "description": "Brand design and creative direction."
+      }
+    ],
+    "education": [
+      {
+        "institution": "KIIT University",
+        "degree": "M.S.",
+        "field_of_study": "Commerce",
+        "start_year": 2002,
+        "end_year": 2006,
+        "grade": "8.89 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Excel", "proficiency": "intermediate", "endorsements": 9, "duration_months": 28},
+      {"name": "Object Detection", "proficiency": "advanced", "endorsements": 39, "duration_months": 37}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 81.8,
+      "signup_date": "2025-09-05",
+      "last_active_date": "2025-12-12",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 70,
+      "applications_submitted_30d": 4,
+      "recruiter_response_rate": 0.4,
+      "avg_response_time_hours": 236.6,
+      "skill_assessment_scores": {},
+      "connection_count": 324,
+      "endorsements_received": 3,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 15.3, "max": 9.7},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 175,
+      "saved_by_recruiters_30d": 0,
+      "interview_completion_rate": 0.78,
+      "offer_acceptance_rate": 0.46,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000037",
+    "profile": {
+      "anonymized_name": "Ved Sen",
+      "headline": "Business Analyst | 14.3+ yrs experience",
+      "summary": "Professional with 14.3+ years of experience. Focused on outcomes through process, people, and customer relations.",
+      "location": "Dubai",
+      "country": "UAE",
+      "years_of_experience": 14.3,
+      "current_title": "Business Analyst",
+      "current_company": "Stark Industries",
+      "current_company_size": "1001-5000",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Stark Industries",
+        "title": "Business Analyst",
+        "start_date": "2022-03-19",
+        "end_date": null,
+        "duration_months": 51,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "1001-5000",
+        "description": "Business analysis, diagnostics, and process engineering."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lovely Professional University",
+        "degree": "M.Tech",
+        "field_of_study": "Statistics",
+        "start_year": 2013,
+        "end_year": 2016,
+        "grade": "6.81 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Databricks", "proficiency": "intermediate", "endorsements": 12, "duration_months": 32},
+      {"name": "Docker", "proficiency": "intermediate", "endorsements": 6, "duration_months": 35},
+      {"name": "AWS", "proficiency": "intermediate", "endorsements": 2, "duration_months": 33}
+    ],
+    "certifications": [
+      {"name": "AWS Certified Cloud Practitioner", "issuer": "AWS", "year": 2024}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "professional"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 25.6,
+      "signup_date": "2025-04-11",
+      "last_active_date": "2025-12-11",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 80,
+      "applications_submitted_30d": 6,
+      "recruiter_response_rate": 0.78,
+      "avg_response_time_hours": 107.1,
+      "skill_assessment_scores": {},
+      "connection_count": 503,
+      "endorsements_received": 13,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 8.8, "max": 14.2},
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 178,
+      "saved_by_recruiters_30d": 1,
+      "interview_completion_rate": 0.82,
+      "offer_acceptance_rate": 0.19,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000038",
+    "profile": {
+      "anonymized_name": "Myra Trivedi",
+      "headline": "Java Developer | Cloud & DevOps",
+      "summary": "Software engineer with 6.7 years of experience. Most of my work is backend engineering and deployments.",
+      "location": "Coimbatore, Tamil Nadu",
+      "country": "India",
+      "years_of_experience": 6.7,
+      "current_title": "Java Developer",
+      "current_company": "Swiggy",
+      "current_company_size": "5001-10000",
+      "current_industry": "Food Delivery"
+    },
+    "career_history": [
+      {
+        "company": "Swiggy",
+        "title": "Java Developer",
+        "start_date": "2023-11-09",
+        "end_date": null,
+        "duration_months": 31,
+        "is_current": true,
+        "industry": "Food Delivery",
+        "company_size": "5001-10000",
+        "description": "Frontend and backend microservices integrations."
+      }
+    ],
+    "education": [
+      {
+        "institution": "VIT Chennai",
+        "degree": "B.Sc",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2015,
+        "end_year": 2020,
+        "grade": "70%",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Kubeflow", "proficiency": "intermediate", "endorsements": 3, "duration_months": 26},
+      {"name": "Weaviate", "proficiency": "advanced", "endorsements": 37, "duration_months": 27},
+      {"name": "MLOps", "proficiency": "intermediate", "endorsements": 13, "duration_months": 26}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 35.8,
+      "signup_date": "2026-03-25",
+      "last_active_date": "2026-03-31",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 102,
+      "applications_submitted_30d": 9,
+      "recruiter_response_rate": 0.2,
+      "avg_response_time_hours": 61.0,
+      "skill_assessment_scores": {},
+      "connection_count": 316,
+      "endorsements_received": 51,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 9.2, "max": 15.9},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": true,
+      "github_activity_score": 37.8,
+      "search_appearance_30d": 300,
+      "saved_by_recruiters_30d": 18,
+      "interview_completion_rate": 0.75,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000039",
+    "profile": {
+      "anonymized_name": "Sai Saxena",
+      "headline": "Marketing Manager | Helping teams scale",
+      "summary": "Professional with 3.9+ years of experience. Formed brand campaigns, packaging designs, and SEO implementations.",
+      "location": "Bhubaneswar, Odisha",
+      "country": "India",
+      "years_of_experience": 3.9,
+      "current_title": "Marketing Manager",
+      "current_company": "Acme Corp",
+      "current_company_size": "201-500",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Acme Corp",
+        "title": "Marketing Manager",
+        "start_date": "2024-08-05",
+        "end_date": null,
+        "duration_months": 22,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "201-500",
+        "description": "Mechanical design sub-system and client designs."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Chandigarh University",
+        "degree": "M.E.",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": 2007,
+        "end_year": 2011,
+        "grade": "82%",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Spark", "proficiency": "intermediate", "endorsements": 9, "duration_months": 15},
+      {"name": "Tailwind", "proficiency": "intermediate", "endorsements": 9, "duration_months": 8},
+      {"name": "AWS", "proficiency": "intermediate", "endorsements": 7, "duration_months": 18}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 28.3,
+      "signup_date": "2025-04-14",
+      "last_active_date": "2026-04-18",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 22,
+      "applications_submitted_30d": 0,
+      "recruiter_response_rate": 0.52,
+      "avg_response_time_hours": 40.1,
+      "skill_assessment_scores": {},
+      "connection_count": 102,
+      "endorsements_received": 9,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 17.4, "max": 16.0},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": true,
+      "github_activity_score": -1,
+      "search_appearance_30d": 146,
+      "saved_by_recruiters_30d": 6,
+      "interview_completion_rate": 0.74,
+      "offer_acceptance_rate": -1,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000040",
+    "profile": {
+      "anonymized_name": "Dev Vora",
+      "headline": "Customer Support | Helping teams scale",
+      "summary": "Professional with 1.6+ years of experience. Mostly focused on outcomes through processes and client interactions.",
+      "location": "Kochi, Kerala",
+      "country": "India",
+      "years_of_experience": 1.6,
+      "current_title": "Customer Support",
+      "current_company": "Globex Inc",
+      "current_company_size": "501-1000",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Globex Inc",
+        "title": "Customer Support",
+        "start_date": "2024-11-03",
+        "end_date": null,
+        "duration_months": 19,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "501-1000",
+        "description": "Enterprise sales of cloud software."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Local Engineering College",
+        "degree": "B.Tech",
+        "field_of_study": "MBA",
+        "start_year": 2010,
+        "end_year": 2013,
+        "grade": "7.45 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "SQL", "proficiency": "beginner", "endorsements": 12, "duration_months": 4},
+      {"name": "Spring Boot", "proficiency": "intermediate", "endorsements": 15, "duration_months": 27},
+      {"name": "Weights & Biases", "proficiency": "intermediate", "endorsements": 10, "duration_months": 21}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 39.5,
+      "signup_date": "2024-10-03",
+      "last_active_date": "2026-01-31",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 52,
+      "applications_submitted_30d": 6,
+      "recruiter_response_rate": 0.46,
+      "avg_response_time_hours": 268.3,
+      "skill_assessment_scores": {},
+      "connection_count": 176,
+      "endorsements_received": 35,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 7.6, "max": 8.2},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 95,
+      "saved_by_recruiters_30d": 1,
+      "interview_completion_rate": 0.8,
+      "offer_acceptance_rate": 0.44,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  }
+]

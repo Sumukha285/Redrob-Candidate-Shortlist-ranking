@@ -1,0 +1,778 @@
+[
+  {
+    "candidate_id": "CAND_0000011",
+    "profile": {
+      "anonymized_name": "Deepak Desai",
+      "headline": "QA Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 2.0 years of experience across web, backend, and cloud systems. Most of my work is conventional backend engineering — APIs, databases, queues, deployments.",
+      "location": "Hyderabad, Telangana",
+      "country": "India",
+      "years_of_experience": 2.0,
+      "current_title": "QA Engineer",
+      "current_company": "Pied Piper",
+      "current_company_size": "11-50",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Pied Piper",
+        "title": "QA Engineer",
+        "start_date": "2025-05-02",
+        "end_date": null,
+        "duration_months": 13,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "11-50",
+        "description": "Android mobile development using Java and Kotlin."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Chandigarh University",
+        "degree": "B.Tech",
+        "field_of_study": "Data Science",
+        "start_year": 2014,
+        "end_year": 2019,
+        "grade": "6.96 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Recommendation Systems", "proficiency": "advanced", "endorsements": 5, "duration_months": 40},
+      {"name": "Spring Boot", "proficiency": "intermediate", "endorsements": 12, "duration_months": 31},
+      {"name": "PostgreSQL", "proficiency": "intermediate", "endorsements": 7, "duration_months": 24}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "professional"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 59.2,
+      "signup_date": "2023-07-22",
+      "last_active_date": "2026-01-19",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 112,
+      "applications_submitted_30d": 0,
+      "recruiter_response_rate": 0.56,
+      "avg_response_time_hours": 184.4,
+      "skill_assessment_scores": {
+        "Recommendation Systems": 29.8
+      },
+      "connection_count": 496,
+      "endorsements_received": 9,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 15.5, "max": 13.9},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": false,
+      "github_activity_score": 32.3,
+      "search_appearance_30d": 200,
+      "saved_by_recruiters_30d": 13,
+      "interview_completion_rate": 0.45,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000012",
+    "profile": {
+      "anonymized_name": "Anjali Krishnan",
+      "headline": "Operations Manager | Driving business outcomes",
+      "summary": "Professional with 1.1+ years of experience. My professional background is in marketing manager — I've built and led teams, owned KPIs, and driven business outcomes.",
+      "location": "Chandigarh, Chandigarh",
+      "country": "India",
+      "years_of_experience": 1.1,
+      "current_title": "Operations Manager",
+      "current_company": "Stark Industries",
+      "current_company_size": "1001-5000",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Stark Industries",
+        "title": "Operations Manager",
+        "start_date": "2025-05-02",
+        "end_date": null,
+        "duration_months": 13,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "1001-5000",
+        "description": "Senior accounting close, financial reporting, and GAAP close cycle."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Symbiosis International",
+        "degree": "B.Sc",
+        "field_of_study": "Physics",
+        "start_year": 2018,
+        "end_year": 2022,
+        "grade": "68%",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Azure", "proficiency": "beginner", "endorsements": 7, "duration_months": 10},
+      {"name": "AWS", "proficiency": "intermediate", "endorsements": 15, "duration_months": 30},
+      {
+        "name": "dbt",
+        "proficiency": "intermediate",
+        "endorsements": 11,
+        "duration_months": 22
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "conversational"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 53.4,
+      "signup_date": "2024-01-28",
+      "last_active_date": "2025-10-28",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 60,
+      "applications_submitted_30d": 1,
+      "recruiter_response_rate": 0.16,
+      "avg_response_time_hours": 38.4,
+      "skill_assessment_scores": {},
+      "connection_count": 165,
+      "endorsements_received": 31,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 14.8, "max": 7.9},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 61,
+      "saved_by_recruiters_30d": 3,
+      "interview_completion_rate": 0.42,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000013",
+    "profile": {
+      "anonymized_name": "Pari Nair",
+      "headline": "Civil Engineer | Driving business outcomes",
+      "summary": "Professional with 1.1+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution.",
+      "location": "Dubai",
+      "country": "UAE",
+      "years_of_experience": 1.1,
+      "current_title": "Civil Engineer",
+      "current_company": "Globex Inc",
+      "current_company_size": "501-1000",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Globex Inc",
+        "title": "Civil Engineer",
+        "start_date": "2025-05-02",
+        "end_date": null,
+        "duration_months": 13,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "501-1000",
+        "description": "Customer support team lead handling ticketing systems."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Delhi College of Engineering",
+        "degree": "B.E.",
+        "field_of_study": "Information Technology",
+        "start_year": 2019,
+        "end_year": 2022,
+        "grade": "8.84 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {"name": "React", "proficiency": "intermediate", "endorsements": 5, "duration_months": 23},
+      {"name": "Spark", "proficiency": "intermediate", "endorsements": 7, "duration_months": 30},
+      {"name": "GCP", "proficiency": "intermediate", "endorsements": 0, "duration_months": 18}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 44.2,
+      "signup_date": "2024-06-14",
+      "last_active_date": "2026-03-26",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 16,
+      "applications_submitted_30d": 3,
+      "recruiter_response_rate": 0.28,
+      "avg_response_time_hours": 80.3,
+      "skill_assessment_scores": {},
+      "connection_count": 281,
+      "endorsements_received": 9,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 11.6, "max": 8.1},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": 35.6,
+      "search_appearance_30d": 40,
+      "saved_by_recruiters_30d": 12,
+      "interview_completion_rate": 0.33,
+      "offer_acceptance_rate": 0.26,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000014",
+    "profile": {
+      "anonymized_name": "Atharv Joshi",
+      "headline": "Frontend Engineer | Full-stack development",
+      "summary": "Software engineer with 8.4 years of experience across web, backend, and cloud systems. My background is full-stack, but my comfort zone is the backend and the database.",
+      "location": "Hyderabad, Telangana",
+      "country": "India",
+      "years_of_experience": 8.4,
+      "current_title": "Frontend Engineer",
+      "current_company": "Zomato",
+      "current_company_size": "5001-10000",
+      "current_industry": "Food Delivery"
+    },
+    "career_history": [
+      {
+        "company": "Zomato",
+        "title": "Frontend Engineer",
+        "start_date": "2023-09-10",
+        "end_date": null,
+        "duration_months": 33,
+        "is_current": true,
+        "industry": "Food Delivery",
+        "company_size": "5001-10000",
+        "description": "Frontend engineering at a media company. Built design systems and led migration."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lovely Professional University",
+        "degree": "B.E.",
+        "field_of_study": "Statistics",
+        "start_year": 2012,
+        "end_year": 2015,
+        "grade": "7.45 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "FAISS", "proficiency": "advanced", "endorsements": 40, "duration_months": 44},
+      {"name": "OpenSearch", "proficiency": "advanced", "endorsements": 47, "duration_months": 59},
+      {"name": "OpenCV", "proficiency": "advanced", "endorsements": 30, "duration_months": 60},
+      {"name": "YOLO", "proficiency": "advanced", "endorsements": 1, "duration_months": 44},
+      {"name": "GANs", "proficiency": "advanced", "endorsements": 9, "duration_months": 33}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 61.9,
+      "signup_date": "2025-04-29",
+      "last_active_date": "2026-04-12",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 21,
+      "applications_submitted_30d": 1,
+      "recruiter_response_rate": 0.8,
+      "avg_response_time_hours": 7.7,
+      "skill_assessment_scores": {
+        "FAISS": 77.6
+      },
+      "connection_count": 708,
+      "endorsements_received": 63,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 9.0, "max": 30.0},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 12,
+      "saved_by_recruiters_30d": 0,
+      "interview_completion_rate": 0.55,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000015",
+    "profile": {
+      "anonymized_name": "Rahul Agarwal",
+      "headline": "Software Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 5.4 years of experience across web, backend, and cloud systems. Comfortable in most parts of a typical SaaS stack.",
+      "location": "Trivandrum, Kerala",
+      "country": "India",
+      "years_of_experience": 5.4,
+      "current_title": "Software Engineer",
+      "current_company": "Razorpay",
+      "current_company_size": "1001-5000",
+      "current_industry": "Fintech"
+    },
+    "career_history": [
+      {
+        "company": "Razorpay",
+        "title": "Software Engineer",
+        "start_date": "2023-11-09",
+        "end_date": null,
+        "duration_months": 31,
+        "is_current": true,
+        "industry": "Fintech",
+        "company_size": "1001-5000",
+        "description": "Cloud infrastructure and DevOps work. Owned AWS account architecture, Terraform modules."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Local Engineering College",
+        "degree": "Ph.D",
+        "field_of_study": "Mathematics",
+        "start_year": 2013,
+        "end_year": 2017,
+        "grade": "8.15 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "PyTorch", "proficiency": "intermediate", "duration_months": 15, "endorsements": 10},
+      {"name": "Qdrant", "proficiency": "intermediate", "duration_months": 9, "endorsements": 13},
+      {"name": "Computer Vision", "proficiency": "intermediate", "duration_months": 20, "endorsements": 6}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 79.4,
+      "signup_date": "2023-02-16",
+      "last_active_date": "2026-02-12",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 93,
+      "applications_submitted_30d": 3,
+      "recruiter_response_rate": 0.32,
+      "avg_response_time_hours": 117.7,
+      "skill_assessment_scores": {},
+      "connection_count": 361,
+      "endorsements_received": 61,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 21.8, "max": 18.9},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 164,
+      "saved_by_recruiters_30d": 8,
+      "interview_completion_rate": 0.72,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000016",
+    "profile": {
+      "anonymized_name": "Aanya Malhotra",
+      "headline": "Accountant | Helping teams scale",
+      "summary": "Professional with 5.3+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution.",
+      "location": "Gurgaon, Haryana",
+      "country": "India",
+      "years_of_experience": 5.3,
+      "current_title": "Accountant",
+      "current_company": "Initech",
+      "current_company_size": "51-200",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Initech",
+        "title": "Graphic Designer",
+        "start_date": "2022-11-14",
+        "end_date": null,
+        "duration_months": 43,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "51-200",
+        "description": "Customer support team lead at a SaaS product. Managed support agents."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Generic State University",
+        "degree": "M.Sc",
+        "field_of_study": "Statistics",
+        "start_year": 2008,
+        "end_year": 2012,
+        "grade": "81%",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "Apache Beam", "proficiency": "intermediate", "endorsements": 4, "duration_months": 18},
+      {"name": "Kubeflow", "proficiency": "intermediate", "endorsements": 14, "duration_months": 27}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 80.3,
+      "signup_date": "2023-12-08",
+      "last_active_date": "2025-10-03",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 75,
+      "applications_submitted_30d": 7,
+      "recruiter_response_rate": 0.59,
+      "avg_response_time_hours": 45.4,
+      "skill_assessment_scores": {},
+      "connection_count": 321,
+      "endorsements_received": 8,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 17.1, "max": 8.0},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 154,
+      "saved_by_recruiters_30d": 11,
+      "interview_completion_rate": 0.49,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000017",
+    "profile": {
+      "anonymized_name": "Anil Pandey",
+      "headline": "Accountant | 12.3+ yrs experience",
+      "summary": "Professional with 12.3+ years of experience. My professional background is in marketing manager — I've built and led teams.",
+      "location": "Bangalore, Karnataka",
+      "country": "India",
+      "years_of_experience": 12.3,
+      "current_title": "Accountant",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Accountant",
+        "start_date": "2024-03-08",
+        "end_date": null,
+        "duration_months": 27,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Customer support team lead at a SaaS product."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tier-3 Engineering College",
+        "degree": "M.Tech",
+        "field_of_study": "Data Science",
+        "start_year": 2017,
+        "end_year": 2022,
+        "grade": "7.58 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "Java", "proficiency": "intermediate", "endorsements": 13, "duration_months": 15},
+      {"name": "Tally", "proficiency": "intermediate", "endorsements": 14, "duration_months": 12},
+      {"name": "PostgreSQL", "proficiency": "intermediate", "endorsements": 11, "duration_months": 25}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 38.7,
+      "signup_date": "2025-08-11",
+      "last_active_date": "2025-11-04",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 3,
+      "applications_submitted_30d": 4,
+      "recruiter_response_rate": 0.27,
+      "avg_response_time_hours": 197.4,
+      "skill_assessment_scores": {},
+      "connection_count": 35,
+      "endorsements_received": 23,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 13.8, "max": 8.4},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 110,
+      "saved_by_recruiters_30d": 2,
+      "interview_completion_rate": 0.32,
+      "offer_acceptance_rate": 0.17,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000018",
+    "profile": {
+      "anonymized_name": "Vivaan Reddy",
+      "headline": "Frontend Engineer | Full-stack development",
+      "summary": "Software engineer with 6.6 years of experience across web, backend, and cloud systems. Comfort zone is backend and database.",
+      "location": "Bhubaneswar, Odisha",
+      "country": "India",
+      "years_of_experience": 6.6,
+      "current_title": "Frontend Engineer",
+      "current_company": "Acme Corp",
+      "current_company_size": "201-500",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Acme Corp",
+        "title": "Frontend Engineer",
+        "start_date": "2023-09-10",
+        "end_date": null,
+        "duration_months": 33,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "201-500",
+        "description": "Test automation and QA engineering."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lovely Professional University",
+        "degree": "Ph.D",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2016,
+        "end_year": 2020,
+        "grade": "7.25 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "CNN", "proficiency": "advanced", "endorsements": 53, "duration_months": 55},
+      {"name": "Tailwind", "proficiency": "beginner", "endorsements": 10, "duration_months": 10}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 34.8,
+      "signup_date": "2025-07-09",
+      "last_active_date": "2026-02-18",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 88,
+      "applications_submitted_30d": 11,
+      "recruiter_response_rate": 0.16,
+      "avg_response_time_hours": 154.6,
+      "skill_assessment_scores": {},
+      "connection_count": 284,
+      "endorsements_received": 49,
+      "notice_period_days": 120,
+      "expected_salary_range_inr_lpa": {"min": 12.3, "max": 26.4},
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 41,
+      "saved_by_recruiters_30d": 16,
+      "interview_completion_rate": 0.7,
+      "offer_acceptance_rate": 0.46,
+      "verified_email": false,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000019",
+    "profile": {
+      "anonymized_name": "Myra Mishra",
+      "headline": "Project Manager | 6.5+ yrs experience",
+      "summary": "Professional with 6.5+ years of experience. I've spent my career in marketing manager roles, mostly focused on driving outcomes.",
+      "location": "Trivandrum, Kerala",
+      "country": "India",
+      "years_of_experience": 6.5,
+      "current_title": "Project Manager",
+      "current_company": "Wayne Enterprises",
+      "current_company_size": "10001+",
+      "current_industry": "Conglomerate"
+    },
+    "career_history": [
+      {
+        "company": "Wayne Enterprises",
+        "title": "Project Manager",
+        "start_date": "2022-10-15",
+        "end_date": null,
+        "duration_months": 44,
+        "is_current": true,
+        "industry": "Conglomerate",
+        "company_size": "10001+",
+        "description": "Business analyst at a consulting firm, working primarily with retail and CPG clients."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IISc Bangalore",
+        "degree": "M.Tech",
+        "field_of_study": "Computer Science",
+        "start_year": 2010,
+        "end_year": 2014,
+        "grade": "72%",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "proficiency": "intermediate",
+        "endorsements": 13,
+        "duration_months": 34
+      },
+      {
+        "name": "AWS",
+        "proficiency": "intermediate",
+        "endorsements": 11,
+        "duration_months": 28
+      },
+      {
+        "name": "YOLO",
+        "proficiency": "intermediate",
+        "endorsements": 10,
+        "duration_months": 34
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 38.6,
+      "signup_date": "2025-07-20",
+      "last_active_date": "2026-05-21",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 61,
+      "applications_submitted_30d": 9,
+      "recruiter_response_rate": 0.34,
+      "avg_response_time_hours": 100.0,
+      "skill_assessment_scores": {},
+      "connection_count": 593,
+      "endorsements_received": 25,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 12.5, "max": 7.7},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 141,
+      "saved_by_recruiters_30d": 0,
+      "interview_completion_rate": 0.31,
+      "offer_acceptance_rate": -1,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000020",
+    "profile": {
+      "anonymized_name": "Aditya Iyengar",
+      "headline": "Mechanical Engineer | 6.3+ yrs experience",
+      "summary": "Professional with 6.3+ years of experience. Substantial experience in cross-functional collaboration, stakeholder management.",
+      "location": "Ahmedabad, Gujarat",
+      "country": "India",
+      "years_of_experience": 6.3,
+      "current_title": "Mechanical Engineer",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Mechanical Engineer",
+        "start_date": "2023-06-12",
+        "end_date": null,
+        "duration_months": 36,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Marketing leadership role at a B2B SaaS company."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Kharagpur",
+        "degree": "B.E.",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "grade": "6.67 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {"name": "GraphQL", "proficiency": "beginner", "endorsements": 15, "duration_months": 18},
+      {"name": "Weights & Biases", "proficiency": "advanced", "endorsements": 50, "duration_months": 30},
+      {"name": "GCP", "proficiency": "intermediate", "endorsements": 2, "duration_months": 34}
+    ],
+    "certifications": [
+      {"name": "Scrum Master Certified", "issuer": "Scrum Alliance", "year": 2021}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 73.0,
+      "signup_date": "2023-01-26",
+      "last_active_date": "2025-10-05",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 38,
+      "applications_submitted_30d": 9,
+      "recruiter_response_rate": 0.55,
+      "avg_response_time_hours": 207.8,
+      "skill_assessment_scores": {
+        "Weights & Biases": 53.7
+      },
+      "connection_count": 479,
+      "endorsements_received": 35,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 17.2, "max": 18.2},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 31,
+      "saved_by_recruiters_30d": 11,
+      "interview_completion_rate": 0.71,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": true
+    }
+  }
+]

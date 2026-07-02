@@ -1,0 +1,6 @@
+{
+  "name": "Candidate Shortlist Ranking",
+  "description": "An LLM-powered candidate screening and ranking system that evaluates candidate suitability against custom recruiter criteria with high precision using the Redrob dataset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

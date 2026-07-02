@@ -1,0 +1,764 @@
+[
+  {
+    "candidate_id": "CAND_0000021",
+    "profile": {
+      "anonymized_name": "Rahul Joshi",
+      "headline": "Project Manager | AI enthusiast | Building with LLMs",
+      "summary": "Project Manager with 14.5+ years of experience driving outcomes. Recently excited about how AI and GenAI tools can augment my work. Experimenting with LangChain and vector databases.",
+      "location": "Bhubaneswar, Odisha",
+      "country": "India",
+      "years_of_experience": 14.5,
+      "current_title": "Project Manager",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Project Manager",
+        "start_date": "2023-12-09",
+        "end_date": null,
+        "duration_months": 30,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Brand design and creative direction at a consumer-products company."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tier-3 Engineering College",
+        "degree": "B.Tech",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": 2008,
+        "end_year": 2011,
+        "grade": "9.30 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "AWS", "proficiency": "intermediate", "endorsements": 11, "duration_months": 26},
+      {"name": "Fine-tuning LLMs", "proficiency": "advanced", "endorsements": 4, "duration_months": 4},
+      {"name": "Prompt Engineering", "proficiency": "advanced", "endorsements": 4, "duration_months": 5},
+      {"name": "LangChain", "proficiency": "intermediate", "endorsements": 1, "duration_months": 7},
+      {"name": "Vector Search", "proficiency": "intermediate", "endorsements": 3, "duration_months": 13},
+      {"name": "Embeddings", "proficiency": "advanced", "endorsements": 4, "duration_months": 18},
+      {"name": "FAISS", "proficiency": "intermediate", "endorsements": 2, "duration_months": 8}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "professional"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 58.5,
+      "signup_date": "2026-02-10",
+      "last_active_date": "2025-11-21",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 1,
+      "applications_submitted_30d": 8,
+      "recruiter_response_rate": 0.49,
+      "avg_response_time_hours": 98.7,
+      "skill_assessment_scores": {},
+      "connection_count": 52,
+      "endorsements_received": 3,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {
+        "min": 10.9,
+        "max": 24.4
+      },
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": true,
+      "github_activity_score": 6.4,
+      "search_appearance_30d": 8,
+      "saved_by_recruiters_30d": 3,
+      "interview_completion_rate": 0.53,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000022",
+    "profile": {
+      "anonymized_name": "Shaurya Chatterjee",
+      "headline": "Mechanical Engineer | Driving business outcomes",
+      "summary": "Professional with 1.1+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution.",
+      "location": "Sydney",
+      "country": "Australia",
+      "years_of_experience": 1.1,
+      "current_title": "Mechanical Engineer",
+      "current_company": "Hooli",
+      "current_company_size": "1001-5000",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Hooli",
+        "title": "Mechanical Engineer",
+        "start_date": "2025-05-02",
+        "end_date": null,
+        "duration_months": 13,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "1001-5000",
+        "description": "Content writing and SEO strategy."
+      }
+    ],
+    "education": [
+      {
+        "institution": "VJTI Mumbai",
+        "degree": "M.E.",
+        "field_of_study": "Information Technology",
+        "start_year": 2002,
+        "end_year": 2006,
+        "grade": "8.23 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {"name": "OpenCV", "proficiency": "intermediate", "endorsements": 2, "duration_months": 11},
+      {"name": "Django", "proficiency": "intermediate", "endorsements": 0, "duration_months": 23},
+      {"name": "AWS", "proficiency": "intermediate", "endorsements": 5, "duration_months": 29}
+    ],
+    "certifications": [
+      {"name": "AWS Certified Cloud Practitioner", "issuer": "AWS", "year": 2024}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 63.1,
+      "signup_date": "2022-12-26",
+      "last_active_date": "2026-05-03",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 39,
+      "applications_submitted_30d": 2,
+      "recruiter_response_rate": 0.27,
+      "avg_response_time_hours": 30.2,
+      "skill_assessment_scores": {},
+      "connection_count": 538,
+      "endorsements_received": 21,
+      "notice_period_days": 150,
+      "expected_salary_range_inr_lpa": {"min": 12.3, "max": 8.5},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 136,
+      "saved_by_recruiters_30d": 5,
+      "interview_completion_rate": 0.45,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000023",
+    "profile": {
+      "anonymized_name": "Kavya Nair",
+      "headline": "Software Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 3.7 years of experience. Strong fundamentals in software development and system design.",
+      "location": "New York",
+      "country": "USA",
+      "years_of_experience": 3.7,
+      "current_title": "Software Engineer",
+      "current_company": "Acme Corp",
+      "current_company_size": "201-500",
+      "current_industry": "Manufacturing"
+    },
+    "career_history": [
+      {
+        "company": "Acme Corp",
+        "title": "Software Engineer",
+        "start_date": "2025-04-02",
+        "end_date": null,
+        "duration_months": 14,
+        "is_current": true,
+        "industry": "Manufacturing",
+        "company_size": "201-500",
+        "description": "Test automation and QA engineering."
+      }
+    ],
+    "education": [
+      {
+        "institution": "VJTI Mumbai",
+        "degree": "B.E.",
+        "field_of_study": "Data Science",
+        "start_year": 2009,
+        "end_year": 2013,
+        "grade": "9.43 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {"name": "Node.js", "proficiency": "intermediate", "endorsements": 3, "duration_months": 28},
+      {"name": "MongoDB", "proficiency": "beginner", "endorsements": 8, "duration_months": 10},
+      {"name": "Rust", "proficiency": "intermediate", "endorsements": 2, "duration_months": 16}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 50.7,
+      "signup_date": "2025-09-13",
+      "last_active_date": "2026-04-06",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 10,
+      "applications_submitted_30d": 2,
+      "recruiter_response_rate": 0.57,
+      "avg_response_time_hours": 64.8,
+      "skill_assessment_scores": {},
+      "connection_count": 763,
+      "endorsements_received": 39,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 17.4, "max": 20.5},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": false,
+      "github_activity_score": 48.5,
+      "search_appearance_30d": 239,
+      "saved_by_recruiters_30d": 14,
+      "interview_completion_rate": 0.9,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000024",
+    "profile": {
+      "anonymized_name": "Rajesh Arora",
+      "headline": "HR Manager | 7.5+ yrs experience",
+      "summary": "Professional with 7.5+ years of experience. Focused on outcomes through processes, people, and relationships.",
+      "location": "Trivandrum, Kerala",
+      "country": "India",
+      "years_of_experience": 7.5,
+      "current_title": "HR Manager",
+      "current_company": "TCS",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "TCS",
+        "title": "HR Manager",
+        "start_date": "2023-04-13",
+        "end_date": null,
+        "duration_months": 38,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Demand-generation function, email nurturing, and campaigns."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Symbiosis International",
+        "degree": "Ph.D",
+        "field_of_study": "Computer Science",
+        "start_year": 2008,
+        "end_year": 2013,
+        "grade": "7.65 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Figma", "proficiency": "beginner", "endorsements": 14, "duration_months": 15},
+      {"name": "Forecasting", "proficiency": "advanced", "endorsements": 43, "duration_months": 30},
+      {"name": "Docker", "proficiency": "beginner", "endorsements": 5, "duration_months": 5}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 63.7,
+      "signup_date": "2022-08-30",
+      "last_active_date": "2026-01-20",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 71,
+      "applications_submitted_30d": 4,
+      "recruiter_response_rate": 0.78,
+      "avg_response_time_hours": 238.2,
+      "skill_assessment_scores": {
+        "Forecasting": 65.1
+      },
+      "connection_count": 445,
+      "endorsements_received": 41,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 9.9, "max": 22.1},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": true,
+      "github_activity_score": 46.3,
+      "search_appearance_30d": 84,
+      "saved_by_recruiters_30d": 7,
+      "interview_completion_rate": 0.72,
+      "offer_acceptance_rate": -1,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000025",
+    "profile": {
+      "anonymized_name": "Anika Kumar",
+      "headline": "Frontend Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 7.3 years of experience. Comfortable in most parts of a typical SaaS stack.",
+      "location": "Vizag, Andhra Pradesh",
+      "country": "India",
+      "years_of_experience": 7.3,
+      "current_title": "Frontend Engineer",
+      "current_company": "Tech Mahindra",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Tech Mahindra",
+        "title": "Frontend Engineer",
+        "start_date": "2023-09-10",
+        "end_date": null,
+        "duration_months": 33,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Android mobile development using Java and Kotlin."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Regional Technical Institute",
+        "degree": "Ph.D",
+        "field_of_study": "Mechanical Engineering",
+        "start_year": 2006,
+        "end_year": 2010,
+        "grade": "8.18 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "JavaScript", "proficiency": "intermediate", "endorsements": 10, "duration_months": 26},
+      {"name": "LangChain", "proficiency": "advanced", "endorsements": 15, "duration_months": 34},
+      {"name": "Data Pipelines", "proficiency": "intermediate", "endorsements": 9, "duration_months": 32}
+    ],
+    "certifications": [
+      {"name": "Six Sigma Green Belt", "issuer": "ASQ", "year": 2018}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 70.7,
+      "signup_date": "2023-12-18",
+      "last_active_date": "2026-03-30",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 107,
+      "applications_submitted_30d": 11,
+      "recruiter_response_rate": 0.74,
+      "avg_response_time_hours": 128.0,
+      "skill_assessment_scores": {
+        "LangChain": 40.0
+      },
+      "connection_count": 276,
+      "endorsements_received": 52,
+      "notice_period_days": 120,
+      "expected_salary_range_inr_lpa": {"min": 18.8, "max": 30.7},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 74,
+      "saved_by_recruiters_30d": 9,
+      "interview_completion_rate": 0.7,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000026",
+    "profile": {
+      "anonymized_name": "Neha Rao",
+      "headline": "Graphic Designer | 6.8+ yrs experience",
+      "summary": "Professional with 6.8+ years of experience. Competent in design, layouts, and illustration projects.",
+      "location": "Kochi, Kerala",
+      "country": "India",
+      "years_of_experience": 6.8,
+      "current_title": "Graphic Designer",
+      "current_company": "Initech",
+      "current_company_size": "51-200",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Initech",
+        "title": "Graphic Designer",
+        "start_date": "2022-11-14",
+        "end_date": null,
+        "duration_months": 43,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "51-200",
+        "description": "Graphic designs and client assets."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lovely Professional University",
+        "degree": "B.E.",
+        "field_of_study": "Machine Learning",
+        "start_year": 2008,
+        "end_year": 2013,
+        "grade": "83%",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Apache Beam", "proficiency": "intermediate", "endorsements": 4, "duration_months": 18},
+      {"name": "Kubeflow", "proficiency": "intermediate", "endorsements": 14, "duration_months": 27},
+      {"name": "Kubernetes", "proficiency": "intermediate", "endorsements": 13, "duration_months": 22}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 80.3,
+      "signup_date": "2023-12-08",
+      "last_active_date": "2025-10-03",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 75,
+      "applications_submitted_30d": 7,
+      "recruiter_response_rate": 0.59,
+      "avg_response_time_hours": 45.4,
+      "skill_assessment_scores": {},
+      "connection_count": 321,
+      "endorsements_received": 8,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {"min": 17.1, "max": 8.0},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 154,
+      "saved_by_recruiters_30d": 11,
+      "interview_completion_rate": 0.49,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000027",
+    "profile": {
+      "anonymized_name": "Avni Pandey",
+      "headline": "DevOps Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 3.9 years of experience. Experienced in web frontends, REST APIs, and cloud deployments.",
+      "location": "Kolkata, West Bengal",
+      "country": "India",
+      "years_of_experience": 3.9,
+      "current_title": "DevOps Engineer",
+      "current_company": "Infosys",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Infosys",
+        "title": "DevOps Engineer",
+        "start_date": "2023-06-12",
+        "end_date": null,
+        "duration_months": 36,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Java backend development with Spring Boot microservices."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "Ph.D",
+        "field_of_study": "Information Technology",
+        "start_year": 2006,
+        "end_year": 2010,
+        "grade": "6.55 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {"name": "YOLO", "proficiency": "advanced", "endorsements": 31, "duration_months": 20},
+      {"name": "PEFT", "proficiency": "advanced", "endorsements": 39, "duration_months": 35},
+      {"name": "Weights & Biases", "proficiency": "advanced", "endorsements": 31, "duration_months": 44},
+      {"name": "Terraform", "proficiency": "intermediate", "endorsements": 12, "duration_months": 19}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 31.0,
+      "signup_date": "2023-03-07",
+      "last_active_date": "2026-05-07",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 89,
+      "applications_submitted_30d": 5,
+      "recruiter_response_rate": 0.58,
+      "avg_response_time_hours": 112.3,
+      "skill_assessment_scores": {
+        "YOLO": 60.2,
+        "PEFT": 50.5,
+        "Data Science": 35.1
+      },
+      "connection_count": 282,
+      "endorsements_received": 24,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {"min": 17.9, "max": 20.2},
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": 38.6,
+      "search_appearance_30d": 136,
+      "saved_by_recruiters_30d": 6,
+      "interview_completion_rate": 0.61,
+      "offer_acceptance_rate": 0.65,
+      "verified_email": false,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0000028",
+    "profile": {
+      "anonymized_name": "Rohan Krishnan",
+      "headline": "Operations Manager | Driving business outcomes",
+      "summary": "Professional with 1.1+ years of experience. Knowledgeable in brand design, packaging layouts, and SEO.",
+      "location": "Dubai",
+      "country": "UAE",
+      "years_of_experience": 1.1,
+      "current_title": "Operations Manager",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Operations Manager",
+        "start_date": "2025-05-02",
+        "end_date": null,
+        "duration_months": 13,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Brand design and creative direction."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Symbiosis International",
+        "degree": "M.Tech",
+        "field_of_study": "Mathematics",
+        "start_year": 2014,
+        "end_year": 2017,
+        "grade": "7.85 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "React", "proficiency": "beginner", "endorsements": 11, "duration_months": 7},
+      {"name": "Terraform", "proficiency": "intermediate", "endorsements": 9, "duration_months": 18},
+      {"name": "CNN", "proficiency": "intermediate", "endorsements": 8, "duration_months": 29}
+    ],
+    "certifications": [
+      {"name": "AWS Certified Cloud Practitioner", "issuer": "AWS", "year": 2020}
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 51.2,
+      "signup_date": "2025-09-23",
+      "last_active_date": "2026-03-31",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 6,
+      "applications_submitted_30d": 7,
+      "recruiter_response_rate": 0.14,
+      "avg_response_time_hours": 13.2,
+      "skill_assessment_scores": {},
+      "connection_count": 524,
+      "endorsements_received": 1,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 12.9, "max": 17.2},
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": true,
+      "github_activity_score": -1,
+      "search_appearance_30d": 68,
+      "saved_by_recruiters_30d": 4,
+      "interview_completion_rate": 0.86,
+      "offer_acceptance_rate": 0.49,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000029",
+    "profile": {
+      "anonymized_name": "Priya Sethi",
+      "headline": "Business Analyst | Driving business outcomes",
+      "summary": "Professional with 7.2+ years of experience. Highly skilled in cross-functional collaboration and stakeholder management.",
+      "location": "Noida, Uttar Pradesh",
+      "country": "India",
+      "years_of_experience": 7.2,
+      "current_title": "Business Analyst",
+      "current_company": "Wipro",
+      "current_company_size": "10001+",
+      "current_industry": "IT Services"
+    },
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Business Analyst",
+        "start_date": "2025-02-01",
+        "end_date": null,
+        "duration_months": 16,
+        "is_current": true,
+        "industry": "IT Services",
+        "company_size": "10001+",
+        "description": "Marketing leadership role at a B2B SaaS company."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Symbiosis International",
+        "degree": "B.Tech",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": 2007,
+        "end_year": 2011,
+        "grade": "6.59 CGPA",
+        "tier": "tier_3"
+      }
+    ],
+    "skills": [
+      {"name": "Node.js", "proficiency": "beginner", "endorsements": 9, "duration_months": 18},
+      {"name": "Tailwind", "proficiency": "intermediate", "endorsements": 5, "duration_months": 21},
+      {"name": "Spring Boot", "proficiency": "intermediate", "endorsements": 1, "duration_months": 10}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "native"},
+      {"language": "Hindi", "proficiency": "native"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 40.5,
+      "signup_date": "2025-06-17",
+      "last_active_date": "2025-09-29",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 51,
+      "applications_submitted_30d": 8,
+      "recruiter_response_rate": 0.12,
+      "avg_response_time_hours": 48.4,
+      "skill_assessment_scores": {},
+      "connection_count": 297,
+      "endorsements_received": 4,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 17.5, "max": 19.1},
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 74,
+      "saved_by_recruiters_30d": 9,
+      "interview_completion_rate": 0.56,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  },
+  {
+    "candidate_id": "CAND_0000030",
+    "profile": {
+      "anonymized_name": "Ritu Pillai",
+      "headline": "Marketing Manager | Driving business outcomes",
+      "summary": "Professional with 10.0+ years of experience. I've spent my career in marketing manager roles, mostly focused on driving outcomes through process, people, and customer relationships.",
+      "location": "Kochi, Kerala",
+      "country": "India",
+      "years_of_experience": 10.0,
+      "current_title": "Marketing Manager",
+      "current_company": "Dunder Mifflin",
+      "current_company_size": "201-500",
+      "current_industry": "Paper Products"
+    },
+    "career_history": [
+      {
+        "company": "Dunder Mifflin",
+        "title": "Marketing Manager",
+        "start_date": "2022-03-19",
+        "end_date": null,
+        "duration_months": 51,
+        "is_current": true,
+        "industry": "Paper Products",
+        "company_size": "201-500",
+        "description": "Senior accounting close and compliance."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Generic State University",
+        "degree": "Ph.D",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": 2017,
+        "end_year": 2020,
+        "grade": "7.98 CGPA",
+        "tier": "tier_4"
+      }
+    ],
+    "skills": [
+      {"name": "GraphQL", "proficiency": "intermediate", "endorsements": 2, "duration_months": 22},
+      {"name": "Spring Boot", "proficiency": "intermediate", "endorsements": 2, "duration_months": 22},
+      {"name": "Accounting", "proficiency": "intermediate", "endorsements": 3, "duration_months": 30}
+    ],
+    "certifications": [],
+    "languages": [
+      {"language": "English", "proficiency": "professional"},
+      {"language": "Hindi", "proficiency": "conversational"}
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 59.7,
+      "signup_date": "2025-09-25",
+      "last_active_date": "2025-10-27",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 58,
+      "applications_submitted_30d": 0,
+      "recruiter_response_rate": 0.66,
+      "avg_response_time_hours": 131.1,
+      "skill_assessment_scores": {},
+      "connection_count": 552,
+      "endorsements_received": 45,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {"min": 14.7, "max": 14.2},
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": false,
+      "github_activity_score": 21.7,
+      "search_appearance_30d": 54,
+      "saved_by_recruiters_30d": 1,
+      "interview_completion_rate": 0.73,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": false
+    }
+  }
+]
